@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+</head>
+<body>
+<form action=mailto:kokorin0521@gmail.com enctype="text/plain" name="maket" autocomplete="on">
+    <p><label for="number">Identification Number:</label>
+        <br><input autocomplete=on autofocus type="text" id="number" size="35" required></p>
+    <p><label for="name">Legal Name:</label>
+        <br><input autocomplete=on type="text" id="name" size="104" required></p>
+    <p><label for="address1">Address 1:</label>
+        <br><input autocomplete=on type="text" id="address1" size="104" required></p>
+    <p><label for="address2">Address 2:</label>
+        <br><input autocomplete=on type="text" id="address2" size="104"></p>
+    <table>
+        <tr>
+            <td><label for="city">City:</label>
+                <br><input autocomplete=on type="text" id="city" size="30" required></td>
+            <td><label for="state">State:</label>
+                <br><input autocomplete=on type="text" id="state" size="24" required>
+            </td>
+            <td><label for="zip">Zip:</label>
+                <br><input autocomplete=on type="number" id="zip" required></td>
+            <td>Country:<br><select>
+                <option value=1 selected>United States</option>
+                <option value=2>United Kingdom</option>
+                <option value=3>Russia</option>
+                <option value=4>China</option>
+                <option value=5>Brazil</option>
+            </select></td>
+        </tr>
+    </table>
+    <p></p>
+    <table>
+        <tr>
+            <td><label for="phone">Phone:</label>
+                <br><input autocomplete=on type="tel" id="phone" size="25" required>
+            </td>
+            <td><label for="email">Email:</label>
+                <br><input autocomplete=on type="email" id="email" size="73" required>
+            </td>
+        </tr>
+    </table>
+    <p></p>
+    <table>
+        <tr>
+            <td>
+                <pre>                                                                                          </pre>
+            </td>
+            <td>
+                <button type="reset">Reset</button>
+            </td>
+            <td><input type="submit" value="Submit"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
