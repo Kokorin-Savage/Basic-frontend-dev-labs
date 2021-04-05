@@ -1,0 +1,13 @@
+.header{
+    margin-top: 56px;
+}
+.section1{
+    background-image: url(./img/header.svg);
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
+#knopka{
+    background:#458FF6;
+}

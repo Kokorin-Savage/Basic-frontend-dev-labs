@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <script src="./script.js"></script>
+    <title>Trafalgar</title>
+</head>
+<body>
+<header class="header">
+    <nav class=" ml-40 container mx-36 flex justify-between items-center">
+        <img src="./img/logo.svg" alt="logo">
+        <div class="flex justify-between">
+            <p class="text-gray-900 font-bold mr-10">Home</p>
+            <p class="text-gray-600 mr-10">Find a doctor</p>
+            <p class="text-gray-600 mr-10">Apps</p>
+            <p class="text-gray-600 mr-10">Testimonials</p>
+            <p class="text-gray-600 mr-10">About us</p>
+        </div>
+    </nav>
+    <section class="section1">
+        <div class="mt-4 ml-40 mr-40 container mx-36 flex justify-between items-center">
+            <div>
+                <h1 class="text-black text-5xl font-bold">
+                    Virtual healthcare<br>
+                    for you
+                </h1>
+                <p class="mt-6 text-gray-600 text-xl">
+                    Trafalgar provides progressive, and affordable <br>
+                    healthcare, accessible on mobile and online <br>
+                    for everyone
+                </p>
+                <button onclick="button_su()"
+                        class="mt-10 h-17 w-5/12 rounded-t-full rounded-b-full bg-blue-500 rounded-l-full rounded-r-full focus:outline-none rounded-xl transition duration-500 ease-in-out hover: transform hover:-translate-y-1 hover:scale-110">
+                    <p class=" px-9 py-4 text-white text-sm tracking-wider"> Consult today </p>
+                </button>
+            </div>
+            <img class="mt-16" src="./img/startimg.svg" alt="startimg">
+        </div>
+    </section>
+
+</header>
+</body>
+</html>
