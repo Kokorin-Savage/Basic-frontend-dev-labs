@@ -11,3 +11,10 @@
 #knopka{
     background:#458FF6;
 }
+#footer{
+    background-image: url(./img/footer.svg);
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
