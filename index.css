@@ -8,8 +8,15 @@
     -o-background-size: 100%;
     background-size: 100%;
 }
-#knopka{
+#button_su{
     background:#458FF6;
+}
+#section2{
+    background-image: url(./img/ourServices.svg);
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
 }
 #footer{
     background-image: url(./img/footer.svg);
