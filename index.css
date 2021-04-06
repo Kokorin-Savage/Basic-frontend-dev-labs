@@ -15,6 +15,21 @@
     -o-background-size: 100%;
     background-size: 100%;
 }
+#section5{
+    width:1100px;
+    background-image: url(./img/bgsec5.svg);
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
+#section6{
+    background-image: url(./img/ourArticle.svg);
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
 #footer{
     background-image: url(./img/footer.svg);
     -moz-background-size: 100%;
