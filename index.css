@@ -1,0 +1,160 @@
+.preloader {
+    /*фиксированное позиционирование*/
+    position: fixed;
+    /* координаты положения */
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    /* фоновый цвет элемента */
+    background: #e0e0e0;
+    /* размещаем блок над всеми элементами на странице (это значение должно быть больше, чем у любого другого позиционированного элемента на странице) */
+    z-index: 1001;
+}
+
+.preloader__row {
+    position: relative;
+    top: 50%;
+    height: 70px;
+    margin-top: -35px;
+    margin-left: -35px;
+    text-align: center;
+}
+
+.loaded_hiding .preloader {
+    transition: 0.534s opacity;
+    opacity: 1;
+}
+
+.loaded .preloader {
+    display: none;
+}
+
+.logo {
+    width: 8%;
+    height: 5%;
+}
+
+.text {
+    font-family: metropolis, serif;
+}
+
+.girl {
+    z-index: 2;
+    position: relative;
+    top: 5%;
+    right: 12%;
+}
+
+.oval {
+    z-index: 1;
+    position: relative;
+    top: -20%;
+}
+
+.un {
+    height: 350px;
+    width: 100%;
+}
+
+.fu {
+    font-size: large;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.un1 {
+    width: 225px;
+    height: 67px;
+}
+
+.un2 {
+    width: 250px;
+    height: 64px;
+}
+
+.un3 {
+    width: 224px;
+    height: 79px;
+}
+
+.un4 {
+    width: 275px;
+    height: 62px;
+}
+
+.dots {
+    width: 107px;
+    height: 14px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.os {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.news1 {
+    width: 344px;
+    height: 224px;
+}
+
+#el1 {
+    width: 370px;
+    height: 390px;
+}
+
+#el2 {
+    width: 370px;
+    height: 390px;
+}
+
+#el3 {
+    width: 370px;
+    height: 390px;
+}
+
+#el4 {
+    width: 370px;
+    height: 390px;
+}
+
+#el5 {
+    width: 370px;
+    height: 390px;
+}
+
+#lastsection {
+    background-image: url(./Images/6.svg);
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
+
+div.image {
+    position: relative;
+}
+img#profile {
+    width: 250px;
+    height: 250px;
+    background: blue;
+    border-radius: 50%;
+    z-index: 100;
+    left: 10px;
+    top: 10px;
+    position: absolute;
+}
+img#frame {
+    width: 270px;
+    height: 270px;
+    background: tomato;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+main {
+    width: 100%;
+}

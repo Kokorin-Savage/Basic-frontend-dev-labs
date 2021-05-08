@@ -1,0 +1,475 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="/script.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+<!--
+<div class="preloader">
+    <div class="preloader__row">
+        <p class="text-4xl text-center">Загрузка страницы …</p>
+        <div class="preloader__item"></div>
+        <div class="preloader__item"></div>
+    </div>
+</div>
+-->
+<header class="flex mx-auto container px-8 justify-between">
+    <img class="logo mt-3" src="./Images/logo_top.png" alt="">
+    <nav class="flex ml-60 mx-auto container justify-between text">
+        <p class="mt-6">Home</p>
+        <p class="mt-6">About us</p>
+        <p class="mt-6">Our Services</p>
+        <p class="mt-6">Responsibilities</p>
+        <p class="mt-6">Country</p>
+        <button onclick="knopka()"
+                class="mr-6 px-10 py-2 mt-4 content-center rounded-xl border-2 border-blue-900 focus:outline-none">
+            <span class="">Apply</span>
+        </button>
+        <script src="script.js"></script>
+    </nav>
+</header>
+
+<main>
+    <section class="pl-32 mt-24 flex flex-col items-center">
+        <ul class="container-fluid w-full flex justify-between">
+            <li class="w-1\/2">
+                <ul class="text-bold w-full">
+                    <li class="text-7xl flex text"><p class=""><strong>We Help to </strong></p>
+                        <p class="ml-4 text-indigo-800"><strong>Build</strong></p></li>
+                    <li class="text-7xl text"><p><strong>Your Dream</strong></p></li>
+                    <li class="max-w-lg mt-16 text-gray-500">
+                        <p>We are always availed to consult on taking your higher</p>
+                        <p>education to the next level so you can stay competitive in </p>
+                        <p>the global world. We welcome the opportunity to work</p>
+                        <p>with you "today" for "tomorrow's" better career solutions.</p></li>
+                    <li>
+                        <button class="mt-16  bg-indigo-500 flex text-white items-center px-10 py-3 rounded-lg focus:outline-none" onclick="knopka()">
+                            Apply Online <img class="ml-4" src="./Images/arrow.svg" alt="">
+                        </button>
+                        <script src="script.js"></script>
+                    </li>
+                    <li class="mt-28 mb-10 flex"><img src="./Images/facebook.svg" alt=""><img class="ml-5" src="./Images/twitter.svg" alt=""><img class="ml-4" src="./Images/inst.svg" alt=""></li>
+                </ul>
+            </li>
+            <li class="w-1\/2">
+                <img src="./Images/Oval2.png" class="w-full" alt="">
+            </li>
+        </ul>
+    </section>
+
+    <section class="flex -mt-7 flex-col items-center">
+        <div class="bg-gray-100 un lex container-fluid items-center">
+            <p class="text-center pt-9 fu text-gray-500 text-uppercase"> Featured Universities</p>
+            <ul class="px-full mt-8 items-center flex justify-around">
+                <li class="h-full un1"><img src="./Images/macquarie.png" alt=""></li>
+                <li class="h-full un2"><img src="./Images/charles.png" alt=""></li>
+                <li class="h-full un3"><img src="./Images/newcastle.png" alt=""></li>
+                <li class="h-full un4"><img src="./Images/latrobe.png" alt=""></li>
+            </ul>
+            <img src="./Images/dots.svg" class="mt-24 dots" alt="">
+        </div>
+    </section>
+
+    <section class="mt-24">
+        <p class="text-center pt-4 os">Our Services</p>
+        <p class="text-center text-2xl text-gray-500 mt-2 ">
+            Executive Trade International is an University Application Centre, guiding Bangladeshi students to
+            Australian,<br>
+            British, Canadian and Irish universities!
+        </p>
+        <div class="mt-28 flex flex-col items-center">
+            <ul class="container mx-36 flex justify-between items-center w-7\/12">
+                <li class="">
+                    <div id="el1" class="ml-36 rounded-lg border-2 shadow-xl">
+                        <img class="pl-8 pt-7" src="./Images/purple.svg" alt="">
+                        <div class="pl-8 pt-8">
+                            <p class="pl-2 fu">Career Counselling</p>
+                            <p class="pl-2 mt-2 text-s text-gray-500">
+                                Maiores voluptas laboriosam non dolorum <br>
+                                perferendis fuga repellat aut. Blanditiis quos<br>
+                                in minus. Voluptatum quia quia voluptas <br>
+                                voluptatem vero ex possimus. Iure et <br>
+                                consectetur dolorem dicta accusantium <br>
+                                fugiat.
+                            </p>
+                            <div class="pl-2 pb-8  mt-4 flex">
+                                <p class="text-purple-500">Learn more</p>
+                                <img src="./Images/arrow_purple.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="">
+                    <div id="el2" class="rounded-lg border-2 shadow-xl">
+                        <img class="pl-8 pt-7" src="./Images/red.svg" alt="">
+                        <div class="pl-8 pt-8">
+                            <p class="pl-2 fu">University Admissions</p>
+                            <p class="pl-2 mt-2 text-gray-500">
+                                Maiores voluptas laboriosam non dolorum <br>
+                                perferendis fuga repellat aut. Blanditiis quos<br>
+                                in minus. Voluptatum quia quia voluptas <br>
+                                voluptatem vero ex possimus. Iure et <br>
+                                consectetur dolorem dicta accusantium <br>
+                                fugiat.
+                            </p>
+                            <div class="pl-2 pb-2  mt-4 flex">
+                                <p class="text-purple-500">Learn more</p>
+                                <img src="./Images/arrow_purple.svg" class="" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="">
+                    <div id="el3" class=" mr-36 rounded-lg border-2 shadow-xl">
+                        <img class="pl-8 pt-7" src="./Images/green.svg" alt="">
+                        <div class="pl-8 pt-8">
+                            <p class="pl-2 fu">Visa Consultancy</p>
+                            <p class="pl-2 mt-2 text-gray-500">
+                                Maiores voluptas laboriosam non dolorum <br>
+                                perferendis fuga repellat aut. Blanditiis quos<br>
+                                in minus. Voluptatum quia quia voluptas <br>
+                                voluptatem vero ex possimus. Iure et <br>
+                                consectetur dolorem dicta accusantium <br>
+                                fugiat.
+                            </p>
+                            <div class="pl-2 pb-2  mt-4 flex">
+                                <p class="text-purple-500">Learn more</p>
+                                <img src="./Images/arrow_purple.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="pt-16 pb-24 flex ">
+                <li>
+                    <div id="el4" class="rounded-lg border-2 shadow-xl">
+                        <img class="pl-8 pt-7" src="./Images/blue.svg" alt="">
+                        <div class="pl-8 pt-8">
+                            <p class="pl-2 fu">Accommodations</p>
+                            <p class="pl-2 mt-2 text-gray-500">
+                                Maiores voluptas laboriosam non dolorum <br>
+                                perferendis fuga repellat aut. Blanditiis quos<br>
+                                in minus. Voluptatum quia quia voluptas <br>
+                                voluptatem vero ex possimus. Iure et <br>
+                                consectetur dolorem dicta accusantium <br>
+                                fugiat.
+                            </p>
+                            <div class="pl-2 pb-2  mt-4 flex">
+                                <p class="text-purple-500">Learn more</p>
+                                <img src="./Images/arrow_purple.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="pl-12">
+                    <div id="el5" class="rounded-lg border-2 shadow-xl">
+                        <img class="pl-8 pt-7" src="./Images/pink.svg" alt="">
+                        <div class="pl-8 pt-8">
+                            <p class="pl-2 fu">Pre-Departure Briefing</p>
+                            <p class="pl-2 mt-2 text-gray-500">
+                                Maiores voluptas laboriosam non dolorum <br>
+                                perferendis fuga repellat aut. Blanditiis quos<br>
+                                in minus. Voluptatum quia quia voluptas <br>
+                                voluptatem vero ex possimus. Iure et <br>
+                                consectetur dolorem dicta accusantium <br>
+                                fugiat.
+                            </p>
+                            <div class="pl-2 pb-2  mt-4 flex">
+                                <p class="text-purple-500">Learn more</p>
+                                <img src="./Images/arrow_purple.svg" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <section class="mt-10  bg-gray-100 block pt-14 pb-32">
+            <p class="text-center pt-4 os">News</p>
+            <p class="text-center text-2xl text-gray-500 mt-2 ">
+                Sunt autem nusquam hoc epicurus in gravissimo bello animadversionis metu degendae praesidia firmissima.
+                <br>
+                Torquatos nostros? quos tu paulo ante cum teneam sententiam, quid bonum esse vult.
+            </p>
+            <div class="mt-28 flex flex-col items-center">
+                <ul class="container mx-36 flex justify-between items-center w-7\/12">
+                    <li class="">
+                        <div id="news1" class="ml-36 rounded-lg border-2 shadow-xl">
+                            <img src="./Images/News1.svg" alt="">
+                            <div class="-mt-28 mb-12 flex flex-col items-center">
+                                <p class="pl-2 mt-2 text-s text-gray-500">
+                                    Come On In. The Water’s Fine <br>
+                                    (Mostly).
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="">
+                        <div id="news2" class="rounded-lg border-2 shadow-xl">
+                            <img src="./Images/News2.svg" alt="">
+                            <div class="-mt-28 mb-12 flex flex-col items-center">
+                                <p class="pl-2 mt-2 text-gray-500">
+                                    Trump Lays Plans to Reverse <br>
+                                    Obama’s Climate Change Legacy
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="">
+                        <div id="news3" class=" mr-36 rounded-lg border-2 shadow-xl">
+                            <img src="./Images/News3.svg" alt="">
+                            <div class="-mt-28 mb-12 flex flex-col items-center">
+                                <p class="pl-2 mt-2 text-gray-500">
+                                    How a Little Bit of Hydra Regrows <br>
+                                    a Whole Animal
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="mt-20 flex flex-col items-center">
+                <button class="mt-16  bg-indigo-500 flex text-white items-center px-10 py-3 rounded-lg focus:outline-none"
+                        onclick="knopka()">
+                    Join Here <img class="ml-4" src="./Images/arrow.svg" alt="">
+                </button>
+                <script src="script.js"></script>
+
+            </div>
+        </section>
+        <section class="mt-20">
+            <p class="text-center pt-4 os">Upcoming University Events</p>
+            <p class="text-center text-2xl text-gray-500 mt-2 ">
+                Sunt autem nusquam hoc epicurus in gravissimo bello animadversionis metu degendae praesidia firmissima.
+                <br>
+                Torquatos nostros? quos tu paulo ante cum teneam sententiam, quid bonum esse vult.
+            </p>
+            <div class="mt-28 flex flex-col items-center mt-24">
+                <div class="flex justify-between items-center">
+
+
+                    <div class="rounded-lg border-2 shadow-xl mr-12">
+                        <div class=" flex justify-between items-center">
+                            <img class="mt-8 ml-8" src="./Images/24Dec.svg" alt="">
+                            <p class=" mt-2 mr-56">
+                                Macquarie University, Sydney, <br>
+                                Australia
+                            </p>
+                        </div>
+                        <p class="ml-8 mt-8 text-gray-500 pr-7">
+                            Maiores voluptas laboriosam non dolorum perferendis fuga repellat aut. <br>
+                            Blanditiis quos in minus. Voluptatum quia quia voluptas voluptatem vero <br>
+                            ex possimus. Iure et consectetur dolorem dicta accusantium fugiat.
+                        </p>
+                        <div class=" flex justify-between items-center">
+                            <div class="pl-8 pb-2  mt-6 flex">
+                                <p class="text-purple-500">Learn more</p>
+                                <img src="./Images/arrow_purple.svg" alt="">
+                            </div>
+                            <img class="mr-7 mt-6" src="./Images/Time.svg" alt="">
+                        </div>
+                    </div>
+
+
+                    <div class="rounded-lg border-2 shadow-xl">
+                        <div class=" flex justify-between items-center">
+                            <img class="mt-8 ml-8" src="./Images/17Dec.svg" alt="">
+                            <p class=" mt-2 mr-56">
+                                Federation University, Australia
+                            </p>
+                        </div>
+                        <p class="ml-8 mt-8 text-gray-500 pr-7">
+                            Maiores voluptas laboriosam non dolorum perferendis fuga repellat aut. <br>
+                            Blanditiis quos in minus. Voluptatum quia quia voluptas voluptatem vero <br>
+                            ex possimus. Iure et consectetur dolorem dicta accusantium fugiat.
+                        </p>
+                        <div class=" flex justify-between items-center">
+                            <div class="pl-8 pb-2  mt-6 flex">
+                                <p class="text-purple-500">Learn more</p>
+                                <img src="./Images/arrow_purple.svg" alt="">
+                            </div>
+                            <img class="mr-7 mt-6" src="./Images/Time.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col pt-20 items-center">
+                    <img src="./Images/dots.svg" class="" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="pb-16 mt-28 bg-gray-100 pt-12">
+            <p class="text-center pt-4 pb-4 os">Countries We Cowered</p>
+            <p class="text-center text-gray-500 pt-2">Sunt autem nusquam hoc epicurus in gravissimo bello
+                animadversionis metu degendae praesidia
+                firmissima.<br> Torquatos nostros? quos tu paulo ante cum teneam sententiam, quid bonum esse vult.</p>
+            <div class="flex flex-col items-center">
+                <div class="flex px-48 pt-8 justify-between">
+                    <div>
+                        <img src="./Images/australia.svg" class="rounded-xl" alt="">
+                        <div>
+                            <p class="pt-4 os">Study in Australia</p>
+                            <p class="text-gray-500 pt-2">
+                                Ut aut corporis accusantium illo ullam qui<br>
+                                laudantium. rerum sunt et sequi sed qui rerum hic.<br>
+                                Voluptatem maiores voluptatum voluptate porro<br>
+                                harum.Facilis voluptatum eum est.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./Images/canada.svg" class="rounded-xl" alt="">
+                        <div>
+                            <p class="pt-4 os">Study in Canada</p>
+                            <p class="text-gray-500 pt-2">
+                                Ut aut corporis accusantium illo ullam qui<br>
+                                laudantium. rerum sunt et sequi sed qui rerum hic.<br>
+                                Voluptatem maiores voluptatum voluptate porro<br>
+                                harum.Facilis voluptatum eum est.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./Images/uk.svg" class="rounded-xl" alt="">
+                        <div>
+                            <p class="pt-4 os">Study in UK</p>
+                            <p class="text-gray-500 pt-2">
+                                Ut aut corporis accusantium illo ullam qui<br>
+                                laudantium. rerum sunt et sequi sed qui rerum hic.<br>
+                                Voluptatem maiores voluptatum voluptate porro<br>
+                                harum.Facilis voluptatum eum est.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col pt-8 items-center">
+                    <img src="./Images/dots.svg" class="" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section id="lastsection" class="pb-16">
+            <p class="text-center pt-24 os">Testimonials</p>
+            <p class="text-center text-gray-500 pt-2">Torquem detraxit hosti et quidem faciunt, ut et negent satis esse
+                appetendum, alterum. Si sine causa?<br>
+                quae fuerit causa, mox videro; interea hoc epicurus in liberos. </p>
+            <div class="flex flex-col items-center">
+                <div class="flex pt-32 px-12 justify-between  mr-10">
+                    <div>
+                        <div class="flex">
+                            <img src="./Images/babenka.svg" alt="">
+                            <div class="pl-4">
+                                <p class="">Harrison Phillips </p>
+                                <p class="text-gray-500">Reporter</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="text-gray-500 mr-2">Nisi cumque in necessitatibus molestiae eaque excepturi
+                                ab.<br>
+                                Laboriosam ipsam voluptatem voluptatibus labore quam nihil.<br>
+                                Quasi occaecati quos ratione quia aut molestiae velit et.<br>
+                                Voluptatem id ea dicta inventore et quo impedit repudiandae.<br>
+                                Qui officia aperiam atque qui occaecati est. Magnam<br>
+                                voluptatem earum excepturi qui quae ea qui.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex">
+                            <img src="./Images/ochkarik.svg" alt="">
+                            <div class="pl-4">
+                                <p class="">Ainara Vergara </p>
+                                <p class="text-gray-500">Landscape Architect</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="text-gray-500 mr-2">Aut consectetur voluptas. Voluptatem minus quo voluptas in<br>
+                                nulla iste. Fugiat alias sit sed dolorem quo. Qui praesentium et<br>
+                                doloribus minima neque. Facere debitis sed est suscipit velit<br>
+                                reprehenderit. Dolores aliquid dolore consequuntur ex.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex">
+                            <img src="./Images/chelik.svg" alt="">
+                            <div class="pl-4">
+                                <p class="">Niek Bove </p>
+                                <p class="text-gray-500">Senior Developer</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="text-gray-500">Rem quia possimus eum adipisci autem aut sunt laboriosam<br>
+                                autem. Qui soluta ut aut excepturi dolorem laborum ut. Qui alias<br>
+                                aut provident quas illo. Eveniet debitis totam quaerat.<br>
+                                Enim voluptatem fuga qui. Numquam iusto vero ipsa eveniet iusto.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col pt-8 items-center">
+                    <img src="./Images/dots.svg" class="" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class=" flex flex-col items-center">
+            <div class="container bg-gray-100 py-16 flex justify-between px-48 items-center w-full">
+                <p class="text-3xl"><strong>Ready to chase your dreams? </strong></p>
+                <button class=" bg-indigo-500 flex text-white items-center px-10 py-3 rounded-lg focus:outline-none"
+                        onclick="knopka()">
+                    Apply Online <img class="ml-4" src="./Images/arrow.svg" alt="">
+                </button>
+                <script src="script.js"></script>
+            </div>
+        </section>
+    </section>
+</main>
+
+<footer class="flex flex-col items-center">
+    <div class="container flex justify-between px-36 pt-16 pb-12 bg-indigo-500 text-gray-300">
+        <div>
+            <img src="./Images/logo_bot.png" alt="">
+            <p class="pt-6">Concord Royal Court (3rd floor)<br>
+                Dhanmondi, Dhaka 1209, Bangladesh.</p>
+            <p class="pt-14">© 2020 Executive Trade International.</p>
+        </div>
+        <div class=>
+            <p class="pt-4">About us</p>
+            <p class="pt-4">Responsibilities</p>
+            <p class="pt-4">Our Services</p>
+            <p class="pt-4">Contact</p>
+        </div>
+        <div>
+            <p class="pt-4">Disclaimer</p>
+            <p class="pt-4">Testimonials</p>
+            <p class="pt-4">Privacy Policy</p>
+            <p class="pt-4">Terms of Service</p>
+        </div>
+        <div>
+            <img src="./Images/icons.svg" class="pt-36" alt=>
+        </div>
+    </div>
+
+</footer>
+
+<script>
+    window.onload = function () {
+        document.body.classList.add('loaded_hiding');
+        window.setTimeout(function () {
+            document.body.classList.add('loaded');
+            document.body.classList.remove('loaded_hiding');
+        }, 500);
+    }
+</script>
+</body>
+        
+
+   
+     
+   
+     
+   
